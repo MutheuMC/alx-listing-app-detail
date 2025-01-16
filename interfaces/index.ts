@@ -26,7 +26,7 @@ export interface CardProps {
   
   export interface PropertyProps {
     name: string;
-    description:string;
+    description ?:string;
     address: Address;
     rating: number;
     category: string[];
